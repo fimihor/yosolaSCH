@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+
+body{
+    width: 100%;
+    list-style: none;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+.section-p1{
+    padding: 44px 50px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(5, 5, 51);
+}   
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+/* #newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 2px;
+    margin-bottom: 20px;
+} */
+
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#page-header{
+    background-image: url(About.1.jpg);
+}
+
+/* #contact-details .details{
+    width: 40%;
+} */
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details li{
+    list-style-type: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#wrapper{
+    width: auto;
+    overflow: hidden;
+}
+
+#form-details .sec{
+    margin-top: 20px;
+    display: flex;
+    gap: 3em;
+}
+
+#form-details{
+     gap: 3em;
+     /* margin: 30px; */
+     padding: 15px;
+     margin-right: 70px;
+}
+
+#form-details form{
+    width: 500px;
+}
+
+
+
+#contact-details .map{
+   
+    height: 400px;
+}
+
+#contact-details .map iframe{
+   
+    height: 100%;
+}
+
+/* #form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+} */
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 20px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#form-details form button:hover{
+    transition: 0.5s, easy;
+    color: blue;
+    background-color: yellow;
+}
+
+/* #form-details .people div {
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+} */
+
+/* #form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+} */
+
+#form-details.people div p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details.people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.people{
+    padding-bottom: 25px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.people span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+
+@media (max-width:820px){
+    #newsletter .form{
+        width: 70% ;
+    }
+    #contact-details{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        width: 100%;
+    }
+    
+}
