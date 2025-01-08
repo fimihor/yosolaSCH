@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+}
+
+body{
+    background-image:
+    linear-gradient(15deg,
+        rgba(154, 171, 226, 0.75),
+        rgba(218, 221, 224, 0.75)), 
+          url(
+        'images/logo.jpg');
+width: 100%;    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-resolution: from-image;
+    
+    font-family: 'spartan', sans-serif;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: none;
+    }
+}
+
+.container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
