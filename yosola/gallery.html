@@ -7,27 +7,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>yosola School</title>
-  <link rel="stylesheet" href="contact.css">
-  <link rel="stylesheet" href="gallery.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="Icon" type="Image/Icon" href="Images/logo1.jpg"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="boot5/css/mdb.min.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 
-  <!-- ...................................INFO hEAD................. .............................. -->
-  <!-- <header class=" text-center pb-1 pt-1" style="background-color: #FFE31A; color: black; font-weight: 600;">
-    <p class="">For More Information, Call: 08093258829,08164235062</p>
-  </header>
-
-  </a>
-  </div> -->
-
+  
   <!-- ....................................NavBar............................................... -->
 
   <nav class="navbar navbar-expand-lg" style="background-color:steelblue; position: sticky; top: 0px; z-index: 1;">
@@ -35,7 +27,7 @@
       <a class="navbar-brand" href="index.html"><img src="Images/logo1.jpg" alt="yosola"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span><i class="bi bi-three-dots-vertical" style="color: #fff; font-size: 2rem; border: none;outline: none;"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav  me-3 ms-auto" style="float: right;">
@@ -48,14 +40,14 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">About </a>
           </li>
           
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact </a>
           </li>
         
 
@@ -64,242 +56,321 @@
           </li>
           <li class="nav-item">
             <!-- <a class="nav-link" href="#">Blog</a> -->
-            <a href="vocation.html"> <button class="btn  py-2 px-2" style="background-color:  #FFE31A; font-weight:bold;">Vocational</button>  </a>
+            <button class="btn py-2 px-2" style="background: yellow;" onclick="location.href='vocation.html';">Vocational</button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- ....................................NavBar.. End............................................. -->
+
 <!-- - ............................................Gallery............................................................ -->
-<div class="heading">
-    <h3 style="color: black; font-family: sans-serif;text-align: center; text-decoration: underline;"> Yosola School Image Gallery</h3>
+<div class="heading ">
+    <h3 class="text-center text-dark mt-5 mb-5"> Yosola School Image Gallery</h3>
 </div>
 
 <!-- Image Gallery section all images in one div -->
-<div class="gallery">
-    <div class="gallery-item">
-        <img src=
-"Images/MD11.jpg"
-            onclick="openModal(
-'Images/MD11.jpg')"
-            alt="Image 1">
-    </div>
-    <div class="gallery-item">
-        <img src=
-"Images/principal.jpg"
-            onclick="openModal(
-'Images/principal.jpg')"
-            alt="Image 2">
-    </div>
-    <div class="gallery-item">
-        <img src=
-"Images/admin.jpg"
-            onclick="openModal(
-'Images/admin.jpg')"
-            alt="Image 3">
-    </div>
-    <div class="gallery-item">
-        <img src=
-"yosola image/NFIMI1164.jpg"
-            onclick="openModal(
-'yosola image/NFIMI1164.jpg')"
-            alt="Image 4">
-    </div>
-    <div class="gallery-item">
-        <img src=
-"yosola image/NFIMI0842.jpg" style="height: 200px;"
-            onclick="openModal(
-'yosola image/NFIMI0842.jpg')"
-            alt="Image 5">
-    </div>
-    <div class="gallery-item">
-        <img src=
-"yosola image/lab1.jpg"
-            onclick="openModal(
-'yosola image/lab1.jpg')"
-            alt="Image 6">
-   
-
-    </div>
-    <div class="gallery-item">
-      <img src=
-"yosola image/NFIMI0933.jpg"
-          onclick="openModal(
-'yosola image/NFIMI0933.jpg')"
-          alt="Image 6">
- 
-
-  </div>
-  <div class="gallery-item">
-    <img src=
-"yosola image/NFIMI0822.jpg"   style="height:200px;"
-        onclick="openModal(
-'yosola image/NFIMI0822.jpg')"
-        alt="Image 6">
-
-
-</div>
-<div class="gallery-item">
-  <img src=
-"yosola image/pal2.jpg" style="height:190px;"
-
-      onclick="openModal(
-'yosola image/pal2.jpg')"
-      alt="Image 6">
-      
-
-
-</div>
-<div class="gallery-item">
-<img src=
-"yosola image/voc1.jpg" style="height: 180px;"
-
-    onclick="openModal(
-'yosola image/voc1.jpg')"
-    alt="Image 6">
-    
-
-
-</div>
-<div class="gallery-item">
-<img src=
-"yosola image/voc11.jpg" 
-
-  onclick="openModal(
-'yosola image/voc11.jpg')"
-  alt="Image 6">
-  
-
-
-</div>
-<div class="gallery-item">
-<img src=
-"yosola image/voc2.jpg" 
-
-  onclick="openModal(
-'yosola image/voc2.jpg')"
-  alt="Image 6">
-  
-
-
-</div>
-<div class="gallery-item"  style="height: 170px;">
-    <img src="yosola image/voc3.jpg" style="height: 145px;"
-
-  onclick="openModal(
-'yosola image/voc3.jpg')"
-  alt="Image 6">
-  
-
-
-</div>
-<div class="gallery-item"  style="height: 150px;">
-<img src=
-"yosola image/NFIMI1197.jpg" 
-
-  onclick="openModal(
-'yosola image/NFIMI1197.jpg')"
-  alt="Image 6">
-  
-
-
-</div>
-<div class="gallery-item" style="height: 150px;">
-<img src=
-"yosola image/NFIMI0894.jpg"
-    onclick="openModal(
-'yosola image/NFIMI0894.jpg')"
-    alt="Image 6">
-
-
-</div>
-</div>
-
-<!-- Modal for Image Display -->
-<div id="myModal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img class="modal-content" id="modalImage">
-</div>
-
-
-<!-- JavaScript for Modal -->
-<script>
-    function openModal(src) {
-        document.getElementById("modalImage").src = src;
-        document.getElementById("myModal").style.display = "block";
-    }
-
-    function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-    }
-</script>
-
-
-
-
-
-</section>
-
-  <!-- ............................................FOOTER..................................................... -->
-  <footer style="background-color:steelblue; margin-top:1px;">
-    
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12  tap2" style="text-align: center; padding-top: 10px;">
-            <a href=""> <i class="fa fa-facebook-f" style="font-size:40px; color: white;"></i>
-            </a>
+<div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/MD11.jpg" class="card-img-top" alt="Image 1" style="height: 280px;">
+          <div class="card-body">
+            <p class="card-text">M.D</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/principal.jpg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <p class="card-text">Principal</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/staffe.jpg" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <p class="card-text">School Admin</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/lab1.jpg" class="card-img-top" alt="Image 4">
+          <div class="card-body">
+            <p class="card-text">Biology Laboratory</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/labq.jpg" class="card-img-top" alt="Image 5">
+          <div class="card-body">
+            <p class="card-text">Chemistry Laboratory</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/sec (3).jpg" class="card-img-top" alt="Image 6">
+          <div class="card-body">
+            <p class="card-text">Secondary Students</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/sec (4).jpg" class="card-img-top" alt="Image 7" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Secondary Students</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/sec (5).jpg" class="card-img-top" alt="Image 8" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Secondary Students</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/sec (6).jpg" class="card-img-top" alt="Image 9" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Secondary Students</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/sec (8).jpg" class="card-img-top" alt="Image 10">
+          <div class="card-body">
+            <p class="card-text">Secondary Students</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/staff.jpg" class="card-img-top" alt="Image 11" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Supervisor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/pal2.jpg" class="card-img-top" alt="Image 12" style="height: 270px;">    
+          <div class="card-body">
+            <p class="card-text">Primary Pupil</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/pr1.jpg" class="card-img-top" alt="Image 13" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/pred3.jpg" class="card-img-top" alt="Image 13" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/cre.jpg" class="card-img-top" alt="Image 14" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/pred3.jpg" class="card-img-top" alt="Image 15" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Crenche</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/pr12.jpg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="card">
+          <img src="yosola image/staff4.jpg" class="card-img-top" alt="Image 17" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">School Staffs</p>
           </div>
         </div>
       </div>
 
-      
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12  tap4"> <p style="font-weight: 600; text-align: center; color: #fff;">17 Unity Crescent, Bamboo Bus
-              Stop, Akeja Along Navy School Of Music, Osi Ota Ogun State</p></div>
-
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM1.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
           </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM2.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM3.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM3.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM4.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="vocation image/RM6.jpeg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/voc1.jpg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/voc11.jpg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/voc2.jpg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <img src="yosola image/voc3.jpg" class="card-img-top" alt="Image 16" style="height: 270px;">
+          <div class="card-body">
+            <p class="card-text">Primary Pupils</p>
+          </div>
+        </div>
+      </div>
+    
+     
+     
+      <!-- Repeat similar blocks for images 4 to 30 -->
+    </div>
+</div>
+  
+  <!-- ............................................FOOTER..................................................... -->
+  <footer>
+    <div class="container-fluid" style="background-color: steelblue; color: white; padding: 10px;">
+      <div class="row">
+        <div class="col-md-4 ">
+          <h5 class="text-white">Contact Us</h5>
+          <p class="text-white"><i class="bi bi-geo-alt-fill"></i>                        
+            17 Unity Crescent, Bamboo Bus Stop, Akeja Ota, Ogun State</p>
+          <p> <a href="Email: yosolaschools@gmail.com"><i class="bi bi-envelope"></i>                        
+            Email: yosolaschools@gmail.com</a> </p>
+          <p><a href="tel:+2348164235062" style="color: #fff;"><i class="bi bi-telephone"></i>                        
 
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12  tap5" style="text-align: center;">
-                <i class="bi bi-envelope" style="font-size: 1.5rem; font-weight: 500; color: #fff;"></i>  <a href="mailto:yosolaschools@gmail.com">E-mail:yosolaschools@gmail.com</a>,             
-                <i class="bi bi-telephone-outbound-fill" style="font-size: 1.5rem; color: #fff;"></i><a href="tel:08093258829"> Tel: 08093258829, 08085235837 </a></div>
+            08164235062</a></p>
 
-              </div>
-
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12  tap6" style="text-align: center; color: #fff;">
-                    <p>Copyright © 2024 yosola School Ota - All Rights Reserved</p>
-                  </div>
-                </div>
-
-
-
-
-
-
-
+        </div>
+        <div class="col-md-4">
+          <h5 class="py-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" style="color: white;">Home</a></li>
+            <li><a href="school.html" style="color: white;">School</a></li>
+            <li><a href="about.html" style="color: white;">About</a></li>
+            <li><a href="contact.html" style="color: white;">Contact</a></li>
+            <li><a href="gallery.html" style="color: white;">Gallery</a></li>
+            <li><a href="vocation.html" style="color: white;">Vocational</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-2"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="text-white me-2"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="text-white me-2"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+   
+    </div>
+  </div>
   </footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center text-light bg-dark" style="width: 100%;">
+        <p class="py-3" style="color: white;">&copy; 2025 Yosola School. All rights reserved.</p>
+      </div>
+    </div>
+  
+  
+    </div>
+       
+
+    </div>
+    
+  
 
 
 
 
 
-
-  <!-- ............................................FOOTER.. END................................................... -->
-
+<!-- ............................................FOOTER.. END................................................... -->
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+  <script src="boot5/js/mdb.es.min.js"></script>
+
 </body>
 
 </html>
